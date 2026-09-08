@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var menu = document.querySelector(".menu");
-  var nav = document.querySelector(".nav-links");
-  var header = document.querySelector(".header");
+  const menu = document.querySelector(".menu");
+  const nav = document.querySelector(".nav-links");
+  const header = document.querySelector(".site-header");
 
   if (menu && nav) {
     menu.addEventListener("click", function () {
-      var isOpen = nav.classList.toggle("open");
-      menu.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      const open = nav.classList.toggle("open");
+      menu.setAttribute("aria-expanded", open ? "true" : "false");
     });
 
     nav.querySelectorAll("a").forEach(function (link) {
@@ -18,21 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   if (header) {
-    window.addEventListener("scroll", function () {
+    const updateHeader = function () {
       header.classList.toggle("scrolled", window.scrollY > 20);
-    });
+    };
+    updateHeader();
+    window.addEventListener("scroll", updateHeader, { passive: true });
   }
-
-  document.querySelectorAll('a[href^="#"]').forEach(function (link) {
-    link.addEventListener("click", function (event) {
-      var id = link.getAttribute("href");
-      if (!id || id === "#") return;
-
-      var target = document.querySelector(id);
-      if (target) {
-        event.preventDefault();
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  });
 });
