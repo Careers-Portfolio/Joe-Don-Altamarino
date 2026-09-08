@@ -1,34 +1,14 @@
-# Joe Don Altamarino — Portfolio
+# Joe Don Altamarino — Minimalist Bold Portfolio
 
-GitHub/Netlify-ready static portfolio.
+Single-page portfolio redesign following the supplied **Minimalist Bold** direction: deep monochromatic base, electric blue accent, oversized Syne typography, Inter body text, generous whitespace, bento information blocks, case-study visuals, subtle motion, and simplified navigation.
 
-## Files
-- `index.html` — main portfolio page
-- `style.css` — portfolio styling
-- `script.js` — mobile navigation and smooth scrolling
-- `assets/` — portfolio image assets
-- `Joe_Don_Altamarino_Updated_CV.pdf` — current resume
-- `Sample Projects/` — sample project files
-- `Sample SOPs/` — sample SOP files
+## GitHub Pages placement
+Upload these files to the root of `careers-portfolio/Joe-Don-Altamarino`:
+- `index.html`
+- `style.css`
+- `script.js`
+- `joe-don-headshot.png`
+- `Joe_Don_Altamarino_Updated_CV.pdf`
+- the SOP and tracker/report files referenced by the case studies
 
-## Start locally
-Open `index.html` in a browser, or run a simple local server:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Publish on GitHub
-1. Create a new GitHub repository.
-2. Upload the contents of this folder.
-3. Make sure `index.html` is in the repository root.
-4. For GitHub Pages: Settings → Pages → Deploy from branch → select `main` and `/root`.
-5. Save and open the generated Pages URL.
-
-## Publish on Netlify
-Drag this folder into Netlify Drop, or connect the GitHub repository to Netlify.
-
-## Important
-The portfolio uses `Sequoia` first with system fallbacks. If Sequoia is not installed on a visitor's device, the fallback font will be used.
+The site intentionally avoids external logo-image dependencies that caused the previous version's oversized/broken logo problem. Tools are represented with compact, stable logo-mark tiles and grouped by utilization.
