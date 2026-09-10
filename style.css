@@ -101,13 +101,13 @@ body{
 .btn.primary{
   box-shadow:0 6px 16px rgba(31,78,158,.18);
 }
-/* Website placement */
-.website-section {
-  padding: 25px 5vw;
-  max-width: 1180px;
-  margin: 0 auto 70px;
+
+/* Website section spacing */
+.toolkit + .evidence-panel {
+  margin-top: 25px;
+  margin-bottom: 70px;
 }
 
-.website-section .evidence-panel {
+.evidence-panel + #experience {
   margin-top: 0;
 }
