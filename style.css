@@ -111,3 +111,33 @@ body{
 .evidence-panel + #experience {
   margin-top: 0;
 }
+
+/* Pro Pulot website preview */
+.website-preview {
+  background: #fff;
+  border: 1px solid #cbd8e7;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(23,36,58,.12);
+}
+
+.website-preview iframe {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border: 0;
+  background: #fff;
+}
+
+.website-preview a {
+  display: block;
+  padding: 14px 16px;
+  background: #1f4e9e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.website-preview a:hover {
+  background: #173b78;
+}
