@@ -103,23 +103,63 @@ body{
 }
 
 /* =========================================
-   PRO PULOT — STANDALONE WEBSITE SECTION
+   WEBSITE DEVELOPMENT — DOCUMENTED WORK STYLE
    ========================================= */
 
 .website-section {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 35px 5vw 80px;
+  padding: 0 5vw 80px;
 }
 
 .website-section .evidence-panel {
   margin: 0;
+  background: #171717;
+  color: #fff;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 40px;
   align-items: center;
 }
 
-/* Clear visual separation from Experience */
+.website-section .evidence-panel h3 {
+  font: 700 25px/1.1 Manrope;
+  margin: 10px 0;
+}
+
+.website-section .evidence-panel p {
+  color: #aaa;
+  margin: 0;
+}
+
+/* Website preview */
+.website-preview {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #cbd8e7;
+  overflow: hidden;
+}
+
+.website-preview iframe {
+  display: block;
+  width: 100%;
+  height: 260px;
+  border: 0;
+}
+
+.website-preview a {
+  display: block;
+  padding: 14px 16px;
+  background: #1f4e9e;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Clear separation from Experience */
 .website-section + .experience {
   margin-top: 0;
   border-top: 1px solid #444;
-  padding-top: 105px;
 }
