@@ -101,3 +101,15 @@ body{
 .btn.primary{
   box-shadow:0 6px 16px rgba(31,78,158,.18);
 }
+/* Section spacing */
+.toolkit {
+  margin-bottom: 25px;
+}
+
+.toolkit + .projects {
+  margin-top: 0;
+}
+
+.projects + .experience {
+  margin-top: 80px;
+}
