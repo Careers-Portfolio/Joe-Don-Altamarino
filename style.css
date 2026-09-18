@@ -200,3 +200,8 @@ body{
 .website-section {
   margin-top: -70px;
 }
+
+/* Align Pro Pulot text to the top like ClickUp */
+.website-section .evidence-panel {
+  align-items: start;
+}
