@@ -109,7 +109,7 @@ body{
 .website-section {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 5vw 25px;
+  padding: 0 5vw 80px;
 }
 
 .website-section .evidence-panel {
@@ -198,5 +198,5 @@ body{
 
 /* Match Pro Pulot spacing to the evidence panels above */
 .website-section {
-  margin-top: -55px;
+  margin-top: -25px;
 }
