@@ -195,3 +195,8 @@ body{
 .dashboard-preview a:hover {
   background: #173b78;
 }
+
+/* Match Pro Pulot spacing to the evidence panels above */
+.website-section {
+  margin-top: -55px;
+}
